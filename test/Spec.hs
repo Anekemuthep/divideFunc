@@ -39,8 +39,8 @@ qcProps = testGroup "(checked by QuickCheck)"
   , QC.testProperty "Fermat's last theorem" $
         \x y z n ->
           (n :: Integer) >= 3 QC.==> x^n + y^n /= (z^n :: Integer)
-  , QC.testProperty "grupoid functioning..." $
-        \x y z ->
-         (Producto x) `mappend` (y :: (Producto y)) == (z :: (Producto z))
+  --, QC.testProperty "grupoid functioning..." $
+   --     \x y z ->
+   --      (Producto x) `mappend` (y :: (Producto y)) == (z :: (Producto z))
   ]
   
