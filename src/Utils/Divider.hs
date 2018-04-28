@@ -106,4 +106,7 @@ newtype Producto a =  Producto { getProducto :: a }
 
 instance Num a => Monoid (Producto a) where  
     mempty = Producto 1  
-    Producto x `mappend` Producto y = Producto (x * y)  
+    Producto x `mappend` Producto y = Producto (x * y)
+
+newFunc :: Int -> (Int, Int)
+newFunc x = (x, x + 2)
