@@ -28,33 +28,12 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
 
-/* package tasty-0.11.2.5 */
-#define VERSION_tasty "0.11.2.5"
-#define MIN_VERSION_tasty(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  11 || \
-  (major1) == 0 && (major2) == 11 && (minor) <= 2)
-
-/* package tasty-hunit-0.9.2 */
-#define VERSION_tasty_hunit "0.9.2"
-#define MIN_VERSION_tasty_hunit(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  9 || \
-  (major1) == 0 && (major2) == 9 && (minor) <= 2)
-
-/* package tasty-quickcheck-0.8.4 */
-#define VERSION_tasty_quickcheck "0.8.4"
-#define MIN_VERSION_tasty_quickcheck(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  8 || \
-  (major1) == 0 && (major2) == 8 && (minor) <= 4)
-
-/* tool alex-3.2.1 */
-#define TOOL_VERSION_alex "3.2.1"
+/* tool alex-3.2.3 */
+#define TOOL_VERSION_alex "3.2.3"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
   (major1) <  3 || \
   (major1) == 3 && (major2) <  2 || \
-  (major1) == 3 && (major2) == 2 && (minor) <= 1)
+  (major1) == 3 && (major2) == 2 && (minor) <= 3)
 
 /* tool gcc-4.2.1 */
 #define TOOL_VERSION_gcc "4.2.1"
@@ -84,12 +63,12 @@
   (major1) == 2 && (major2) <  17 || \
   (major1) == 2 && (major2) == 17 && (minor) <= 3)
 
-/* tool happy-1.19.5 */
-#define TOOL_VERSION_happy "1.19.5"
+/* tool happy-1.19.8 */
+#define TOOL_VERSION_happy "1.19.8"
 #define MIN_TOOL_VERSION_happy(major1,major2,minor) (\
   (major1) <  1 || \
   (major1) == 1 && (major2) <  19 || \
-  (major1) == 1 && (major2) == 19 && (minor) <= 5)
+  (major1) == 1 && (major2) == 19 && (minor) <= 8)
 
 /* tool hpc-0.67 */
 #define TOOL_VERSION_hpc "0.67"
